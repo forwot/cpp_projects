@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/raphaelho/Desktop/cpp_course/ASSIGNMENTS/a9_calender/rooster'
+relocations:     []
+...
