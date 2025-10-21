@@ -15,16 +15,7 @@ int main(){
     std::cout << "Calender for " << year << std::endl;
 
     //find out if leap year
-    bool leap_year;
-    if (year%4 == 0 && year%100 !=0){
-        leap_year = true;   
-    }
-    else if (year % 400 == 0){
-        leap_year = true;
-    }
-    else {
-        leap_year = false;
-    }
+    bool leap_year = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     
     //place holderspace
 
