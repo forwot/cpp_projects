@@ -8,7 +8,7 @@ int main(){
     unsigned int first_day{};
     std::cout << "Enter a year : ";
     std::cin >> year;
-    std::cout << "Enter the first day of they year [1: Monday, ... 7: Sunday]: ";
+    std::cout << "Enter the first day of the year [1: Monday, ... 7: Sunday]: ";
     std::cin >> first_day;
     std::cout << std::endl;
 
@@ -42,7 +42,7 @@ int main(){
         number_of_days_in_month = 31;
         break;
     case feb:
-        month_name = "Febuary";
+        month_name = "February";
         if (leap_year){
             number_of_days_in_month = 29;
         }
