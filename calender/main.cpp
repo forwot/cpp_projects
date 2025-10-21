@@ -16,14 +16,16 @@ int main(){
 
     //find out if leap year
     bool leap_year;
-    if ( year%4 == 0 ){
-        if (year%100 != 0){
-            leap_year = true;   
-        }
-        else if (year%100 == 0 && year %400 == 0){
-            leap_year = true;
-        }
+    if (year%4 == 0 && year%100 !=0){
+        leap_year = true;   
     }
+    else if (year % 400 == 0){
+        leap_year = true;
+    }
+    else {
+        leap_year = false;
+    }
+    
     //place holderspace
 
     //MONTHS
